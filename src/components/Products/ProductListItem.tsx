@@ -1,5 +1,7 @@
 import { Button, Card, CardActions, CardContent } from '@mui/material'
 import React from 'react'
+//import classes from './ProductListItem.module.scss'//
+import './ProductListItem.scss'
 
 type ProductProps = {
     name: string
@@ -21,8 +23,8 @@ const ProductListItem = ({
             <CardContent>
                 <h4 className="product-title">{name}</h4>
                 <div className="product-description">{description}</div>
-                <div className="product-features">Type: {type}</div>
-                <div className="product-featured">Capacity: {capacity}</div>
+                <div className={'product-features red'}>Type: {type}</div>
+                <div className="product-featured">Capacity: {capacity}Gb</div>
                 <div className="product-price">$ {price}</div>
             </CardContent>
             <CardActions>
