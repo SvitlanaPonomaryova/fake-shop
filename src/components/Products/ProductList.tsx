@@ -1,6 +1,8 @@
 import { Grid, Typography } from '@mui/material'
 import React from 'react'
 import ProductListItem from './ProductListItem'
+import productsArray from './productsArray'
+import { ProductProps } from './ProductListItem'
 
 type Props = {}
 
@@ -17,33 +19,25 @@ const ProductList = (props: Props) => {
                 alignItems="center"
                 spacing={3}
             >
-                <Grid item xs={12} sm={6} md={4}>
-                    <ProductListItem
-                        name="iPhone X"
-                        description="This is iPhope X"
-                        capacity={64}
-                        type="phone"
-                        price={500}
-                    />
-                </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                    <ProductListItem
-                        name="iPhone XS"
-                        description="This is iPhope XS"
-                        capacity={64}
-                        type="phone"
-                        price={400}
-                    />
-                </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                    <ProductListItem
-                        name="iPhone 13 pro"
-                        description="This is IOS 13 pro"
-                        capacity={128}
-                        type="phone"
-                        price={1600}
-                    />
-                </Grid>
+                {productsArray.map(
+                    ({
+                        name,
+                        description,
+                        type,
+                        capacity,
+                        price,
+                    }: ProductProps) => (
+                        <Grid item xs={12} sm={6} md={4}>
+                            <ProductListItem
+                                name={name}
+                                description={description}
+                                capacity={capacity}
+                                type={type}
+                                price={price}
+                            />
+                        </Grid>
+                    )
+                )}
             </Grid>
         </>
     )

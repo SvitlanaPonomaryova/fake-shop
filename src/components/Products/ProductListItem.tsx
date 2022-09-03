@@ -3,7 +3,7 @@ import React from 'react'
 //import classes from './ProductListItem.module.scss'//
 import './ProductListItem.scss'
 
-type ProductProps = {
+export type ProductProps = {
     name: string
     description: string
     type: string
