@@ -5,7 +5,8 @@ const productsArray = [
         description: 'Thid is iPhone X',
         type:'phone',
         capacity: 64,
-        price: 500
+        price: 500,
+        image: '/images/iPhone 1.jpeg'
     },
     {  
         id: 2,
@@ -13,7 +14,8 @@ const productsArray = [
         description: 'Thid is iPhone XS',
         type:'phone',
         capacity: 120,
-        price: 700
+        price: 700,
+        image: '/images/iPhone 2.jpeg'
     },
     {  
         id: 3,
@@ -21,7 +23,8 @@ const productsArray = [
         description: 'Thid is iPhone 13 Pro',
         type:'phone',
         capacity: 512,
-        price: 400
+        price: 400,
+        image: '/images/iPhone pro.jpeg'
     },
     {  
         id: 4,
@@ -29,7 +32,8 @@ const productsArray = [
         description: 'Thid is iPhone 8 plus',
         type:'phone',
         capacity: 120,
-        price: 1000
+        price: 1000,
+        image: '/images/iPhone 3.jpeg'
     },
     {  
         id: 5,
@@ -37,7 +41,8 @@ const productsArray = [
         description: 'Thid is iPhone 12',
         type:'phone',
         capacity: 64,
-        price: 1500
+        price: 1500,
+        image: '/images/iPhone 4.jpeg'
     },
     {  
         id: 6,
@@ -45,7 +50,8 @@ const productsArray = [
         description: 'Thid is iPhone 11 pro max',
         type:'phone',
         capacity: 128,
-        price: 800
+        price: 800,
+        image: '/images/iPhone 5.jpeg'
     },
 ]
 

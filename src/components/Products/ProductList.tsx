@@ -28,6 +28,7 @@ const ProductList = (props: Props) => {
                             type,
                             capacity,
                             price,
+                            image,
                         }: ProductProps,
                         i
                     ) => (
@@ -39,6 +40,7 @@ const ProductList = (props: Props) => {
                                 capacity={capacity}
                                 type={type}
                                 price={price}
+                                image={image}
                             />
                         </Grid>
                     )
