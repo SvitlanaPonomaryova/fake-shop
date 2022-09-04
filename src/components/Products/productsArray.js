@@ -1,5 +1,6 @@
 const productsArray = [
     {  
+        id: 1,
         name: 'iPhone X',
         description: 'Thid is iPhone X',
         type:'phone',
@@ -7,6 +8,7 @@ const productsArray = [
         price: 500
     },
     {  
+        id: 2,
         name: 'iPhone XS',
         description: 'Thid is iPhone XS',
         type:'phone',
@@ -14,6 +16,7 @@ const productsArray = [
         price: 700
     },
     {  
+        id: 3,
         name: 'iPhone 13 Pro',
         description: 'Thid is iPhone 13 Pro',
         type:'phone',
@@ -21,6 +24,7 @@ const productsArray = [
         price: 400
     },
     {  
+        id: 4,
         name: 'iPhone 8 plus',
         description: 'Thid is iPhone 8 plus',
         type:'phone',
@@ -28,6 +32,7 @@ const productsArray = [
         price: 1000
     },
     {  
+        id: 5,
         name: 'iPhone 12',
         description: 'Thid is iPhone 12',
         type:'phone',
@@ -35,6 +40,7 @@ const productsArray = [
         price: 1500
     },
     {  
+        id: 6,
         name: 'iPhone 11 Pro max',
         description: 'Thid is iPhone 11 pro max',
         type:'phone',
